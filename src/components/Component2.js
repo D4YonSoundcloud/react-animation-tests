@@ -18,6 +18,7 @@ export class Component2 extends Component {
               laudantium hic id quae obcaecati ratione sequi eligendi,
               perferendis error maiores ipsum.
             </p>
+            <button style={btn} onClick={this.props.toggle}>Toggle Component 3</button>
           </div>
         </div>
       )}
@@ -31,5 +32,14 @@ const c2Style = {
     color: "white",
     padding: "1.5rem"
   };
+
+const btn = {
+    background: '#333',
+    color: '#fff',
+    padding: '1rem 2rem',
+    border: 'none',
+    textTransform: 'uppercase',
+    margin: '15px 0'
+}
 
 export default Component2
